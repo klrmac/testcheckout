@@ -13,7 +13,7 @@ click('close')
 #Find Search Box
 click(S('#gh-search-input'))
 
-#What to search for input sku
+#What to search for -- input sku
 write('6438278', into='Search Best Buy')
 press(ENTER)
 
