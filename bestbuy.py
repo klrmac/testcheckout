@@ -1,13 +1,20 @@
 from helium import *
 
+
 #Start Chrome Version 92
 start_chrome()
 
 #Website
 go_to('bestbuy.com')
 
+#Close Popup
+click('close')
+
+#Find Search Box
+click(S('#gh-search-input'))
+
 #What to search for input sku
-write('6151804', into='Search Best Buy')
+write('6438278', into='Search Best Buy')
 press(ENTER)
 
 #ATC
